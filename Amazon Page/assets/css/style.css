@@ -1,1 +1,147 @@
-/* Your styles here */
+/* reset */
+* {
+  box-sizing: border-box;
+}
+/* generics */
+body {
+  font-family: "Arial", "Helvetica", "sans-serif";
+  max-width: 970px;
+  margin: auto;
+  background-color: #e9edee;
+  border: solid 1px black;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+header,
+footer {
+  background-color: #222f3f;
+}
+/* header */
+
+header img {
+  width: 10vw;
+  margin: 6px 0px 6px 18px;
+}
+
+nav {
+  background-color: #364759;
+  padding: 5px;
+  font-size: 9px;
+}
+#aria {
+  margin-left: 13px;
+}
+header span {
+  margin: 5px;
+}
+
+/* main */
+main {
+  background-color: #e9edee;
+  margin: 0 1em;
+  text-align: center;
+}
+
+.py-1 {
+  font-family: "inter", "arial", "helvetica", "sans-serif";
+  background-color: #f56600;
+  color: white;
+  text-align: center;
+  margin: 1rem 0;
+}
+.py-1 p {
+  font-weight: 200;
+  font-size: 9px;
+  font-weight: 200;
+  height: 19px;
+  line-height: 18px;
+  padding: 1px;
+}
+
+.guides {
+  background-image: url(../images/bg-image.png);
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  background-size: contain;
+}
+.guides h3 {
+  margin-top: 1.5rem;
+}
+.guides p {
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+}
+/* cards */
+.first {
+  margin: 1em 0;
+  background-color: white;
+  text-align: center;
+}
+.first p {
+  text-align: start;
+  padding: 10px;
+  margin-right: 5px;
+  padding: 10px;
+  font-size: 11px;
+  font-family: "Inter", "arial", "helvetica", "sans-serif";
+  font-weight: 500;
+  padding: 1px;
+}
+
+main span {
+  color: #1e6978;
+  margin-left: 0.5em;
+  font-weight: 600;
+  font-size: 10px;
+}
+main p {
+  font-size: 11px;
+  font-family: "Inter", "arial", "helvetica", "sans-serif";
+  font-weight: 500;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  display: inline-block;
+  width: 180px;
+  height: 200px;
+  margin: 2px 1%;
+  border-radius: 11px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 0.5em;
+}
+.others {
+  margin-bottom: 1em;
+}
+.img9 {
+  width: 100%;
+}
+.img10 {
+  width: 100%;
+}
+
+/* footer */
+.top {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+}
+footer {
+  text-align: center;
+}
+
+.logo-footer {
+  width: 100px;
+  padding: 40px 0px;
+}
+.top a {
+  text-decoration: underline;
+}
