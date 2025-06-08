@@ -73,8 +73,7 @@ main p {
 /* guides */
 .guides {
   background-image: url(../images/bg-image.png);
-  text-align: center;
-  padding: 1rem;
+  padding: 1em;
   color: white;
   background-size: contain;
 }
